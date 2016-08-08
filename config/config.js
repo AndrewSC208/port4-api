@@ -1,7 +1,7 @@
 const milieu = require('milieu');
 
 const config = milieu('port4-api-test', {
-  environment: 'dev',
+  environment: 'production',
   server: {
     port: 8080
   },
