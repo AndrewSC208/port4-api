@@ -9,6 +9,9 @@ const morgan     = require('morgan');
 
 const routes = require('./routes');
 
+const port = config.server.port;
+const app  = express();
+
 // Add headers
 app.use(function (req, res, next) {
 
@@ -28,9 +31,6 @@ app.use(function (req, res, next) {
     // Pass to next layer of middleware
     next();
 })
-
-const port = config.server.port;
-const app  = express();
 
 require('./libraries/promisify-all')(['mongoose']);
 
