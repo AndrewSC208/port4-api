@@ -14,6 +14,7 @@
   "dependencies": {
     "bluebird": "^3.4.1",
     "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
     "express": "^4.14.0",
     "helmet": "^2.1.1",
     "lodash": "^4.13.1",
@@ -22,6 +23,7 @@
     "morgan": "^1.7.0"
   },
   "devDependencies": {
+    "cors": "^2.7.1",
     "eslint": "^2.9.0",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-config-angular": "^0.5.0",
